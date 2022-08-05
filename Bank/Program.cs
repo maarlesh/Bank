@@ -7,12 +7,12 @@ namespace Bank
     {
         static void Main(String[] args)
         {
-            /* PrimaryAccount p = new PrimaryAccount();
+             PrimaryAccount p = new PrimaryAccount();
              Console.WriteLine(p.addBalance(100));
              Console.WriteLine(p.addBalance(500));
              Console.WriteLine(p.addBalance(-10));
              Console.WriteLine(p.addBalance(-100));
-             Console.WriteLine(p.display()); */
+             Console.WriteLine(p.display()); 
 
             ChildAccount[] c = new ChildAccount[2];
             for(int i = 0; i < c.Length; i++)
